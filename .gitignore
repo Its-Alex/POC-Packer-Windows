@@ -3,3 +3,6 @@ packer_cache/
 
 # For built boxes
 *.box
+
+# For output file
+output-virtualbox-iso

@@ -13,6 +13,16 @@
       "shutdown_command": "shutdown /s /t 10 /f /d p:4:1 /c \"Packer Shutdown\"",
       "guest_os_type": "Windows2012_64",
       "disk_size": "{{user `disk_size`}}",
+      "vm_name": "windows-server-2012-r2-64",
+      "export_opts": [
+        "--manifest",
+        "--vsys",
+        "0",
+        "--description",
+        "{{user `vm_description`}}",
+        "--version",
+        "{{user `vm_version`}}"
+      ],
       "floppy_files": [
         "{{user `autounattend`}}",
         "../scripts/microsoft-updates.bat",
