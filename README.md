@@ -1,6 +1,11 @@
 # POC-Packer-Windows
 Make windows image with packer
 
+# Requirements
+
+- [packer](https://github.com/hashicorp/packer)
+- [virtualBox](https://www.virtualbox.org/)
+
 # Hack
 
 Build this image
