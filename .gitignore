@@ -6,3 +6,6 @@ packer_cache/
 
 # For output file
 output-virtualbox-iso
+
+# Ignore vagrant
+.vagrant
