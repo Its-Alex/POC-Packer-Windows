@@ -14,6 +14,7 @@
       "guest_os_type": "Windows2012_64",
       "disk_size": "{{user `disk_size`}}",
       "vm_name": "windows-server-2012-r2-64",
+      "format": "ova",
       "floppy_files": [
         "{{user `autounattend`}}",
         "../scripts/microsoft-updates.bat",
@@ -70,6 +71,6 @@
     "headless": "true",
     "cpus": "2",
     "memory_size": "2048",
-    "disk_size": "61440"
+    "disk_size": "32000"
   }
 }
