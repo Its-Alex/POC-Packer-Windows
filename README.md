@@ -8,16 +8,18 @@ Make windows image with packer
 
 # Hack
 
-Build this image
+Move to require version folder
+
+Build image
 
 ```
-$ packer build --force windows_r2.json
+$ make image
 ```
 
-After build you can launch this image in vagrant
+After build you can launch image in vagrant
 
 ```
-$ vagrant box add windows_2012_r2_virtualbox.box --name windows_2012_r2 --force
+$ make import-to-vagrant
 $ vagrant up
 ```
 
