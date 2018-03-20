@@ -12,6 +12,7 @@ $ packer build --force windows_r2.json
 After build you can launch this image in vagrant
 
 ```
+$ vagrant box add windows_2012_r2_virtualbox.box --name windows_2012_r2 --force
 $ vagrant up
 ```
 
