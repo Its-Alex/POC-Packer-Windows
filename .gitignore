@@ -9,3 +9,8 @@ output-virtualbox-iso
 
 # Ignore vagrant
 .vagrant
+
+*.raw
+*.vmdk
+*.box
+*.xz
