@@ -1,4 +1,4 @@
-# POC-Packer-Windows
+# Packer-Windows
 Make windows image with packer
 
 # Requirements
@@ -19,13 +19,14 @@ $ make image
 After build you can launch image in vagrant
 
 ```
-$ make import-to-vagrant
+$ make import-box
 $ vagrant up
 ```
 
 # Tips
 
-For now windows is not activate if you want to activate it you need to build this image,
+For now windows is not activate if you want to activate it you need to update
+[Autounattend.xml](/answer_files/2012_r2/Autounattend.xml#L68) or build this image,
 mount it, and copy your key in a file named **key.txt** in `C:\Windows\System32\key.txt`
 
 **Warning :** This file need to have only one line inside without comment and just key
