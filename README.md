@@ -23,6 +23,12 @@ $ make import-box
 $ vagrant up
 ```
 
+You can connect with ssh (password may be needed)
+
+```
+$ vagrant ssh
+```
+
 # Tips
 
 For now windows is not activate if you want to activate it you need to update
